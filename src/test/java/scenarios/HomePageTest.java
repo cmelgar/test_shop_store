@@ -48,7 +48,7 @@ public class HomePageTest {
 
         HomeScreenPage homeScreenPage = PageFactory.initElements(driver, HomeScreenPage.class);
 
-        homeScreenPage.closePopup();
+        homeScreenPage.managePopUp();
 
         Assert.assertEquals("Linio", homeScreenPage.getTitleText());
 
